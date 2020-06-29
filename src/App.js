@@ -70,6 +70,11 @@ function App() {
       animateScale: true
     },
     tooltips: {
+      callbacks: {
+        title: () => "<title callback FILL ME IN>",
+        label: () => "<label callback FILL ME IN>",
+        afterLabel: () => "<after label callback FILL ME IN>"
+      }
     },
     scales: {
       xAxes: [{
